@@ -42,17 +42,17 @@ export default function EbookLandingPage({ config = CONFIG }) {
                 </svg>
             </div>
 
-            <div className="text-[13px] trackin-wide text-white/60 mb-7">
+            <div className="text-[15px] trackin-wide text-white/60 mb-7">
                 {config.nomeIgreja}
             </div>
 
             <h1
-                className="text-[28px] sm:text-[36px] leading-tight font-medium mb-3"
+                className="text-[32px] sm:text-[42px] leading-tight font-medium mb-3"
                 style={{ fontFamily: "'Fraunces', Georgia, serif", color: "#F4F1E9" }}
             >
                 {config.tituloEbook}
             </h1>
-            <p className="text-[15px] leading-relaxed text-white/60 mb-9 max-w-[320px]">
+            <p className="text-[17px] leading-relaxed text-white/60 mb-9 max-w-[320px]">
                 {config.subtitulo}
             </p>
 
