@@ -47,7 +47,7 @@ export default function EbookLandingPage({ config = CONFIG }) {
             </div>
 
             <h1
-                className="tet-[28px] sm:text-[36px] leading-tight font-medium mb-3"
+                className="text-[28px] sm:text-[36px] leading-tight font-medium mb-3"
                 style={{ fontFamily: "'Fraunces', Georgia, serif", color: "#F4F1E9" }}
             >
                 {config.tituloEbook}
