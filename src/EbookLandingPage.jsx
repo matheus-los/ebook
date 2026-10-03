@@ -20,7 +20,11 @@ export default function EbookLandingPage({ config = CONFIG }) {
   return (
     <div
         className="min-h-screen w-full flex items-center justify-center px-5 py-8"
-        style={{ backgroundColor: config.corBase }}
+        style={{ 
+            backgroundColor: config.corBase,
+            paddingTop: "env(safe-area-inset-top, 0px)",
+            paddingBottom: "env(safe-area-inset-bottom, 0px)",
+        }}
     >
         <div className="w-full max-w-[420px] flex flex-col items-center text-center">
             <div
